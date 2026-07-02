@@ -6,9 +6,7 @@ EduSwap is a student marketplace web application that enables students to buy an
 
 ## 🌐 Live Demo
 
-🚀 **Live Website:** https://your-live-link.com
-
-> *(Replace this with your deployed link once the project is live.)*
+🚧 Deployment coming soon...
 
 ---
 
