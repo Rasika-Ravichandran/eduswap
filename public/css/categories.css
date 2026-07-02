@@ -1,0 +1,140 @@
+.category-section{
+    padding:80px 0;
+}
+
+/* Large Banner */
+
+.category-banner{
+
+    height:500px;
+
+    border-radius:25px;
+
+    background:linear-gradient(135deg,#dbeafe,#93c5fd);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:130px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+/* Right Content */
+
+.category-content{
+
+    padding-left:40px;
+
+}
+
+.category-content h2{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.category-content p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+/* Button */
+
+.explore-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 30px;
+
+    border-radius:40px;
+
+    transition:.3s;
+
+}
+
+.explore-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* Small Cards */
+
+.mini-items{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-top:45px;
+
+}
+
+.mini-card{
+
+    text-align:center;
+
+}
+
+.mini-image{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:18px;
+
+    background:#f3f4f6;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.mini-image:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.mini-card p{
+
+    margin-top:12px;
+
+    font-weight:600;
+
+}
+.light-bg{
+    background:#f8fafc;
+}

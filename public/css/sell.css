@@ -1,0 +1,183 @@
+body{
+    background:#f8fafc;
+}
+
+/* Hero */
+
+.sell-hero{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:45px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    margin-bottom:45px;
+
+}
+
+.hero-content{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.hero-icon{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:42px;
+
+}
+
+.hero-content h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.hero-content p{
+
+    color:#6b7280;
+
+    font-size:18px;
+
+}
+
+.hero-image{
+
+    max-height:220px;
+
+}
+/* Form Card */
+
+.form-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.form-label{
+
+    font-weight:600;
+
+}
+
+.form-control,
+.form-select{
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+textarea{
+
+    resize:none;
+
+}
+
+/* Preview */
+
+.preview-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+    position:sticky;
+
+    top:30px;
+
+}
+
+.preview-image{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+/* Upload Box */
+
+.upload-box{
+    border:2px dashed #cbd5e1;
+    border-radius:18px;
+    padding:40px;
+    text-align:center;
+    background:#f8fafc;
+    transition:.3s;
+}
+
+.upload-box:hover{
+    border-color:#2563eb;
+    background:#eff6ff;
+}
+
+.upload-icon{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+/* Tips Card */
+
+.tips-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.tips-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.tips-card li{
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+}
+
+.tips-card li:last-child{
+    border-bottom:none;
+}

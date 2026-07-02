@@ -1,0 +1,111 @@
+<%- include("navbar.ejs") %>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/heroin.css" rel="stylesheet"/>
+
+<section class="container py-5">
+
+    <div class="page-header">
+
+        <h1>🔌 IoT Components</h1>
+
+        <p>Find affordable IoT components for your college projects.</p>
+
+    </div>
+
+    <div class="search-box mb-5">
+
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Search IoT Components">
+
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+
+            <div class="product-card">
+
+                <span class="status">Available</span>
+
+                <img src="/images/iot1.jpg"
+                     class="product-image">
+
+                <div class="product-title">
+                    Arduino Uno R3
+                </div>
+
+                <div class="product-subtitle">
+                    Excellent Condition
+                </div>
+
+                <p class="product-price">
+                    ₹450
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+
+            <div class="product-card">
+
+                <span class="status">Available</span>
+
+                <img src="/images/iot2.jpg"
+                     class="product-image">
+
+                <div class="product-title">
+                    ESP32 WiFi Module
+                </div>
+
+                <div class="product-subtitle">
+                    Like New
+                </div>
+
+                <p class="product-price">
+                    ₹380
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+
+            <div class="product-card">
+
+                <span class="status">Available</span>
+
+                <img src="/images/iot3.jpg"
+                     class="product-image">
+
+                <div class="product-title">
+                    Ultrasonic Sensor
+                </div>
+
+                <div class="product-subtitle">
+                    HC-SR04
+                </div>
+
+                <p class="product-price">
+                    ₹120
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<%- include("footer.ejs") %>

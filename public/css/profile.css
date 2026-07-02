@@ -1,0 +1,123 @@
+body{
+
+    background:#f8fafc;
+
+}
+
+.profile-header{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.profile-img{
+
+    width:140px;
+
+    height:140px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #2563eb;
+
+}
+
+.dashboard-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h2{
+
+    color:#2563eb;
+
+    font-size:40px;
+
+    font-weight:bold;
+
+}
+
+.dashboard-card p{
+
+    margin:0;
+
+    color:#666;
+
+}
+
+.section-box{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.listing-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.listing-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.review{
+
+    padding:18px 0;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.review:last-child{
+
+    border-bottom:none;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+}
