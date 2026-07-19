@@ -1,0 +1,33 @@
+.blur {
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+.login-box {
+  width:420px;
+  background:white;
+  border-radius:20px;
+  padding:40px;
+  text-align:center;
+}
+
+.btn {
+  display:inline-block;
+  margin:10px;
+  padding:12px 30px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:10px;
+}

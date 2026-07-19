@@ -1,0 +1,296 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(135deg,#f7d7dc,#eab1bd);
+
+}
+
+
+.login-container{
+
+    width:900px;
+    min-height:500px;
+    height:auto;
+
+    display:flex;
+
+    background:#ffffff80;
+
+    backdrop-filter:blur(15px);
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* LEFT */
+
+.left-section{
+
+    width:50%;
+
+    padding:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+
+.image-card{
+
+    width:250px;
+
+    height:300px;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    margin-bottom:25px;
+
+}
+
+
+.image-card img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+
+.left-section h1{
+
+    color:#9d4b5a;
+
+}
+
+
+.left-section p{
+
+    width:260px;
+
+    color:#76545c;
+
+}
+
+
+
+/* LOGIN CARD */
+
+.login-card{
+
+    width:50%;
+
+    padding:45px;
+
+    background:#ffffff90;
+
+}
+
+
+
+.login-card h2{
+
+    text-align:center;
+
+    color:#9d4b5a;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.input-box{
+
+    margin-bottom:20px;
+
+}
+
+
+.input-box label{
+
+    font-size:13px;
+
+    color:#8b5360;
+
+}
+
+
+
+.input-box input{
+
+    width:100%;
+
+    border:none;
+
+    border-bottom:2px solid #c78a96;
+
+    padding:12px;
+
+    background:transparent;
+
+    outline:none;
+
+}
+
+
+
+.forgot{
+
+    text-align:right;
+
+}
+
+
+.forgot a{
+
+    color:#9d4b5a;
+
+    font-size:13px;
+
+}
+
+
+
+.login-btn{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:13px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#d98b9b;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+
+
+.login-btn:hover{
+
+    background:#c86f82;
+
+}
+
+
+
+.divider{
+
+    text-align:center;
+
+    margin:25px 0;
+
+    color:#999;
+
+}
+
+
+
+.google-btn{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+
+    padding:12px;
+
+
+    border-radius:25px;
+
+    background:white;
+
+    color:#555;
+
+    text-decoration:none;
+
+    border:1px solid #ddd;
+
+}
+
+
+.google-btn i{
+
+    color:#4285F4;
+
+}
+
+
+
+.signup{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    font-size:14px;
+
+}
+
+
+.signup a{
+
+    color:#9d4b5a;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+
+.signup a:hover{
+
+    text-decoration:underline;
+
+}
+.error-message {
+    color: #dc2626;
+    background: #fee2e2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}

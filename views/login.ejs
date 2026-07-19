@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduswap Login</title>
+
+
+    <!-- Google icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <!-- Left Section -->
+    <div class="left-section">
+
+        <div class="image-card">
+            <img src="/images/login.jpg" alt="Eduswap">
+        </div>
+
+        <h1>Eduswap</h1>
+        <p>
+            Swap books, electronics and essentials 
+            with your campus community.
+        </p>
+
+    </div>
+
+
+    <!-- Right Section -->
+    <div class="login-card">
+
+        <h2>Login</h2>
+
+        <% if(message){ %>
+            <p class="error-message">
+                <%= message %>
+            </p>
+        <% } %>
+
+        <form action="/login" method="POST">
+
+            <div class="input-box">
+                <label>Email</label>
+                <input 
+                    type="email" 
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+            </div>
+
+
+            <div class="input-box">
+                <label>Password</label>
+                <input 
+                    type="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required>
+            </div>
+
+
+            <div class="forgot">
+                <a href="#">Forgot password?</a>
+            </div>
+
+
+            <button class="login-btn">
+                Login
+            </button>
+
+        </form>
+
+
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+
+        <!-- Google Login -->
+        <a href="/auth/google" class="google-btn">
+
+            <i class="fa-brands fa-google"></i>
+
+            Continue with Google
+
+        </a>
+
+
+        <p class="signup">
+            Don't have an account?
+            <a href="/register">
+                Create account
+            </a>
+        </p>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
